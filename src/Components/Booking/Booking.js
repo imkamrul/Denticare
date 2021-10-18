@@ -21,8 +21,8 @@ const Booking = () => {
             <Container>
                 <Row>
                     <Col md={6}>
-                        <h5 className="fw-lighter mb-0">Book Your Visit At</h5>
-                        <h4 className="text-info">DentiCare</h4>
+                        <h5 className="fs-3 fw-lighter mb-2">Book Your Visit At <span className="text-info">DentiCare</span></h5>
+
                         <p>Have an emergency? Do book with us with this simple form below and superior deliverables whereas web-enabled applications. Continually reintermediate integrated processes through technically sound intellectual capital.</p>
                         <hr />
                         <Row>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Card, Col, Container, Image, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
+import './DetailService.css'
 
 const DetailService = () => {
     let { id } = useParams();
@@ -18,35 +19,31 @@ const DetailService = () => {
         <div className="bg-light">
 
             <Container>
-                <Row >
+                <Row className="pt-5">
 
                     <Col md={6}>
-                        <h1 className="pt-5 text-info fw-bolder fs-1">{result?.title}</h1>
+                        <h1 className="pt-2 text-info fw-bolder fs-1">{result?.title}</h1>
                         <p className="fs-5">{result?.info}</p>
                         <Row>
                             <Col md={6}>
-                                <Button variant="info" className="text-white fs-4">Book Appointment</Button>
+                                <Button variant="info" className="text-white fs-5">Book Appointment</Button>
                             </Col>
-                            <Col md={6}>
-                                <Button variant="primary" className="text-white fs-4">Consult A Dentist</Button>
-                            </Col>
+
                         </Row>
                     </Col>
-                    <Col md={6}> <Image src={result?.serviceIMG} fluid className="shadow" /></Col>
+                    <Col md={6} className="d-flex justify-content-center align-items-center py-4"> <Image src={result?.serviceIMG} rounded fluid className="shadow" /></Col>
                 </Row>
                 <Row className="py-5">
 
                     <Col md={5} className="px-5">
-                        <Card>
+                        <Card className="doctor-details">
                             <Card.Img variant="top" src={result?.doctorImg} />
                             <Card.Body>
-                                <Card.Title>{result?.doctorName}</Card.Title>
-                                <Card.Text>
-                                    Specialist at <span className="text-info">{result?.title}</span>
-                                </Card.Text>
+                                <Card.Title className="fs-4 mb-0">{result?.doctorName} <span className="fs-5 text-muted fw-light">(Specialist at <span className="text-info">{result?.title}</span>)</span></Card.Title>
+
                             </Card.Body>
-                            <p className="mb-0 fs-3"><i class="fas fa-envelope-square px-2"></i>info@rmail.com</p>
-                            <p className="mb-0 fs-3"><i class="fas fa-phone px-2"></i>019503343</p>
+                            <div className="d-md-flex justify-content-between px-2 pb-3"> <p className="mb-0 fs-5"><i class="fas fa-envelope-square px-2"></i>info@rmail.com</p>
+                                <p className="mb-0 fs-5"><i class="fas fa-phone px-2"></i>019503343</p></div>
 
                         </Card>
                     </Col>
@@ -67,7 +64,7 @@ const DetailService = () => {
                                 <p className="fs-5"><i class="fas fa-caret-right text-info pe-2"></i>Building a healthy environment.</p>
                             </Col>
                             <Col md={12} className="d-flex justify-content-center py-3">
-                                <Button variant="info" className="text-white fs-5">Book Appointment</Button>
+                                <Button variant="info" className="text-white fs-5">See Details</Button>
                             </Col>
 
                         </Row>
