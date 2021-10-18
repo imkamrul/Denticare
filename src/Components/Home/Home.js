@@ -7,7 +7,7 @@ import News from '../News/News';
 const Home = () => {
     return (
 
-        <div>
+        <div id="home">
             <Banner></Banner>
             <Booking></Booking>
             {/* <News></News> */}

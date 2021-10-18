@@ -28,7 +28,7 @@ const Footer = () => {
                                     aria-label="Recipient's username"
                                     aria-describedby="basic-addon2"
                                 />
-                                <Button variant="info">Subscribe</Button>
+                                <Button variant="info" className="text-white">Subscribe</Button>
                             </InputGroup>
                         </div>
                         <hr className="mt-5" />

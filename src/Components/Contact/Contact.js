@@ -5,7 +5,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div className="custom-contact-bg-color text-white custom-border">
-            <Container>
+            <Container id="contact">
                 <Row>
                     <Col md={4}>
                         <Row className="py-3">

@@ -1,0 +1,19 @@
+.navlink-style{
+   
+    font-size: 25px;
+}
+.navlink-style a{
+    color: white !important;
+   
+    
+}
+.navlink-style a:hover{
+    color: #0DCAF0 !important;
+   
+    
+}
+.sticky-pos{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}

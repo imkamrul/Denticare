@@ -4,9 +4,12 @@
 .footer-link-customize a{
     text-decoration: none;
     margin: 0 10px;
+    color: white;
+
     
 
 }
 .footer-link-customize a:hover{
     border-bottom: 2px solid red;
+    color: blue;
 }
