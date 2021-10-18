@@ -1,0 +1,12 @@
+.footer-custom-color{
+    background-color: #081839;
+}
+.footer-link-customize a{
+    text-decoration: none;
+    margin: 0 10px;
+    
+
+}
+.footer-link-customize a:hover{
+    border-bottom: 2px solid red;
+}
