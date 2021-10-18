@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
 
 
 import './Banner.css'
@@ -15,7 +16,7 @@ const Banner = () => {
                         <p className="fs-5 text-white">Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, prevention, and treatment of diseases, disorders, and conditions of the oral cavity (the mouth), commonly in the dentition (development and arrangement of teeth) as well as the oral mucosa, and of adjacent and related structures and tissues, particularly in associated maxillofacial (jaw and facial) area.</p>
                         <Row>
                             <Col md={5} className="">
-                                <Button variant="info" className="text-white fs-4">Book Appointment</Button>
+                                <Button variant="info" as={HashLink} to="/home#booking" className="text-white fs-4">Book Appointment</Button>
                             </Col>
 
                         </Row>

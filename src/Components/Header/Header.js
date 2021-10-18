@@ -61,9 +61,10 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto navlink-style">
                             <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
-                            <Nav.Link as={Link} to='/about'>About Us</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#services">Service</Nav.Link>
-                            <Nav.Link as={Link} to='/blog'>Blog</Nav.Link>
+                            <Nav.Link as={Link} to='/doctors'>Our Doctors</Nav.Link>
+
+                            <Nav.Link as={Link} to='/ourplans'>Our Plans</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#contact">Contact</Nav.Link>
 
                             <span className=" text-light pt-2 px-2 fw-lighter ">{user.displayName}</span>

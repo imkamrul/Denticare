@@ -3,7 +3,7 @@
         "id": "1",
         "title": "Dental Service",
         "info": " Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.",
-        "logo": "https://i.ibb.co/26nfsCb/8-removebg-preview.png ",
+        "logo": "fas fa-biohazard",
         "doctorName": " Kamrul Hasan",
         "doctorImg": "https://image.freepik.com/free-photo/portrait-smiling-male-doctor_171337-1532.jpg ",
         "serviceIMG": "https://image.freepik.com/free-photo/dentists-treat-patients-teeth_1150-19648.jpg"
@@ -12,7 +12,7 @@
         "id": "2",
         "title": " Dental Implants",
         "info": "A dental implant is a surgical component that interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge, denture, or facial prosthesis or to act as an orthodontic anchor. ",
-        "logo": "https://i.ibb.co/7CVt02C/2-removebg-preview.png ",
+        "logo": "fas fa-shield-virus",
         "doctorName": " Shakil Chowdury",
         "doctorImg": "https://image.freepik.com/free-photo/hospital-healthcare-workers-covid-19-treatment-concept-young-doctor-scrubs-making-daily-errands-clinic-listening-patient-symptoms-look-camera-professional-physician-curing-diseases_1258-57233.jpg",
         "serviceIMG": "https://image.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-20948.jpg "
@@ -21,7 +21,7 @@
         "id": "3",
         "title": " Surgery",
         "info": "Dental surgery is any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth, gums and jaw bones. ",
-        "logo": "https://i.ibb.co/x5ZL51P/3-removebg-preview.png ",
+        "logo": "fas fa-teeth ",
         "doctorName": " Mehedi Hasan",
         "doctorImg": "https://image.freepik.com/free-photo/portrait-successful-mid-adult-doctor-with-crossed-arms_1262-12865.jpg ",
         "serviceIMG": "https://image.freepik.com/free-photo/dentistry-healthcare-concept-male-dentist-showing-teeth-x-ray-female-patient-dental-white-clinic-room_496169-918.jpg"
@@ -30,7 +30,7 @@
         "id": "4",
         "title": " Teeth Whitening",
         "info": "Tooth whitening or tooth bleaching is the process of lightening the color of human teeth. Whitening is often desirable when teeth become yellowed over time for a number of reasons, and can be achieved by changing the intrinsic or extrinsic color of the tooth enamel. ",
-        "logo": " https://i.ibb.co/jfpMZyM/6-removebg-preview.png",
+        "logo": "fas fa-ambulance",
         "doctorName": " MD Soykot",
         "doctorImg": "https://image.freepik.com/free-photo/happy-young-male-doctor-using-tablet-computer_1262-18254.jpg ",
         "serviceIMG": "https://image.freepik.com/free-photo/woman-whitening-teeth-dentistry-with-special-equipment_1303-26400.jpg"
@@ -39,7 +39,7 @@
         "id": "5",
         "title": "Dentistry ",
         "info": "Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, prevention, and treatment of diseases, disorders, and conditions of the oral cavity (the mouth), commonly in the dentition (development and arrangement of teeth) as well as the oral mucosa, and of adjacent and related structures and tissues, particularly in associated maxillofacial (jaw and facial) area. ",
-        "logo": "https://i.ibb.co/P52syYX/1-removebg-preview.png ",
+        "logo": "fas fa-pump-medical",
         "doctorName": " Samiul Islam",
         "doctorImg": " https://image.freepik.com/free-photo/healthcare-workers-medicine-covid-19-pandemic-self-quarantine-concept-smiling-attractive-doctor-scrubs-glasses-stethoscope-neck-cross-arms-chest-ready-help-patients_1258-58772.jpg",
         "serviceIMG": "https://image.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-20949.jpg"
@@ -48,7 +48,7 @@
         "id": "6",
         "title": "Alignment ",
         "info": "Dental braces (also known as braces, orthodontic cases, or cases) are devices used in orthodontics that align and straighten teeth and help position them with regard to a person's bite, while also aiming to improve dental health. Braces also fix gaps. They are often used to correct underbites, as well as malocclusions, overbites, open bites, deep bites, cross bites, crooked teeth, and various other flaws of the teeth and jaw. Braces can be either cosmetic or structural. ",
-        "logo": "https://i.ibb.co/8bzTJwT/4-removebg-preview.png ",
+        "logo": "fas fa-hospital-user ",
         "doctorName": "Labonno Rahman ",
         "doctorImg": " https://image.freepik.com/free-photo/medical-workers-covid-19-vaccination-concept-confident-professional-doctor-female-nurse-blue-scrubs-stethoscope-show-thumbs-up-assure-guarantee-best-quality-service-clinic_1258-57360.jpg",
         "serviceIMG": "https://image.freepik.com/free-photo/woman-patient-dentist_1303-9364.jpg"
@@ -57,7 +57,7 @@
         "id": "7",
         "title": " Teeth Protection",
         "info": "A mouthguard is a protective device for the mouth that covers the teeth and gums to prevent and reduce injury to the teeth, arches, lips and gums.An effective mouthguard is like a ‘crash helmet’ for teeth and jaws. It also prevents the jaws coming together fully, thereby reducing the risk of jaw joint injuries and concussion. ",
-        "logo": "https://i.ibb.co/26K6Swq/7-removebg-preview.png ",
+        "logo": "fas fa-tooth ",
         "doctorName": " Rakib Rahman",
         "doctorImg": "https://image.freepik.com/free-photo/cheerful-doctor-gesturing-thumb-up_23-2147896156.jpg ",
         "serviceIMG": "https://image.freepik.com/free-photo/heal-specialist-procedure-cure-patient_1301-3116.jpg"
@@ -66,7 +66,7 @@
         "id": "8",
         "title": " Teeth Braces",
         "info": "Dental braces are wires that are held together by brackets glued to the permanent teeth. The wires and brackets may be made of metal or other materials. Each week or month (or other time the orthodontist decides) the braces may be checked, cleaned, or changed into a tighter wire. ",
-        "logo": "https://i.ibb.co/KjgRrkQ/5-removebg-preview.png ",
+        "logo": "fas fa-dna ",
         "doctorName": " Tasfi Eva",
         "doctorImg": " https://image.freepik.com/free-photo/attractive-female-doctor-standing-with-documents-hospital_1303-20688.jpg",
         "serviceIMG": "https://image.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg"

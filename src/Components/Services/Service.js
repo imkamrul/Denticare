@@ -12,17 +12,17 @@ const Service = (props) => {
 
     return (
         <Col>
-            <Card>
+            <Card className="service-box">
                 <Card.Img variant="top" src={serviceIMG} style={{ height: "240px " }} className="custom-service-style" />
                 <Card.Body>
                     <Card.Title className="fs-3">{title}</Card.Title>
-                    <p className="service-logo"> <img src={logo} alt="" /></p>
+                    <p className="service-logo"> <i class={logo}></i></p>
                     <Card.Text>
 
                         {info.slice(0, 100)}
                     </Card.Text>
                 </Card.Body>
-                <p className="mx-auto"> <Button variant="info" className="text-white fs-5" onClick={() => handledetails(id)}>View Details</Button></p>
+                <p className="mx-auto"> <Button variant="info" className="text-white " onClick={() => handledetails(id)}>View Details</Button></p>
             </Card>
         </Col>
     );

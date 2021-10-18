@@ -5,15 +5,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
-import AboutUs from './Components/AboutUs/AboutUs';
-import Blog from './Components/Blog/Blog';
 import DetailService from './Components/DetailService/DetailService';
-
 import AuthProvider from './Context/AuthProvider';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import PageNotFound from './Components/PageNotFound/PageNotFound';
+import Doctors from './Components/Doctors/Doctors';
+import OurPlans from './Components/OurPlans/OurPlans';
 
 
 
@@ -35,12 +34,12 @@ function App() {
             <PrivateRoute path="/detailsservice/:id">
               <DetailService></DetailService>
             </PrivateRoute>
-            <Route path="/about">
-              <AboutUs></AboutUs>
+            <Route path="/doctors">
+              <Doctors></Doctors>
 
             </Route>
-            <Route path="/blog">
-              <Blog></Blog>
+            <Route path="/ourplans">
+              <OurPlans></OurPlans>
 
             </Route>
             <Route path="/login">

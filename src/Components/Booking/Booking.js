@@ -18,7 +18,7 @@ const Booking = () => {
     }, [])
     return (
         <div className="booking-custom-bg py-5">
-            <Container>
+            <Container id="booking">
                 <Row>
                     <Col md={6}>
                         <h5 className="fs-3 fw-lighter mb-2">Book Your Visit At <span className="text-info">DentiCare</span></h5>
