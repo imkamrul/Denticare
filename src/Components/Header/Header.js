@@ -22,7 +22,7 @@ const Header = () => {
                             </Col>
                             <Col>
                                 <p className="mb-0">
-                                    <i class="fas fa-map-marker-alt fs-4"></i>
+                                    <i className="fas fa-map-marker-alt fs-4"></i>
                                     <span className="fs-3 ps-2 fw-lighter">
                                         Uttara,Dhaka
                                     </span></p></Col>
@@ -58,9 +58,9 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto navlink-style">
                             <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
-                            <Nav.Link href="#link">About Us</Nav.Link>
-                            <Nav.Link href="#link">Service</Nav.Link>
-                            <Nav.Link href="#link">Blog</Nav.Link>
+                            <Nav.Link as={Link} to='/about'>About Us</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#services">Service</Nav.Link>
+                            <Nav.Link as={Link} to='/blog'>Blog</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#contact">Contact</Nav.Link>
 
                         </Nav>

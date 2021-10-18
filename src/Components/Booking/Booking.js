@@ -1,9 +1,21 @@
-import React from 'react';
-import { Button, Col, Container, Form, FormControl, Image, InputGroup, Row } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Button, Col, Container, Form, FormControl, Image, InputGroup, Row, Spinner } from 'react-bootstrap';
 import bookingPic from '../../img/booking.jpg'
+import Dentcare from '../Dentcare/Dentcare';
 import "./Booking.css"
 
 const Booking = () => {
+    const [information, setInfoormation] = useState({});
+
+    useEffect(() => {
+        fetch('./booking.json')
+            .then(res => res.json())
+            .then(data => {
+
+                setInfoormation(data)
+
+            })
+    }, [])
     return (
         <div className="booking-custom-bg py-5">
             <Container>
@@ -69,6 +81,16 @@ const Booking = () => {
                         <Image src={bookingPic} rounded fluid style={{ height: "450px" }} />
                     </Col>
                 </Row>
+                <Row className="py-3">
+                    {
+                        information?.length ? information.map(info => <Dentcare
+                            key={info.id}
+                            info={info}></Dentcare>) : <Spinner animation="border" variant="primary" />
+
+
+                    }
+                </Row>
+
             </Container>
         </div>
     );
