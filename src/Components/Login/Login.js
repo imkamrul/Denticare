@@ -10,7 +10,7 @@ const Login = () => {
     const location = useLocation();
     const redirect_uri = location.state?.from || '/home'
     const history = useHistory();
-    const { signInWithgoogle, setIsLoading, handlepasswordChnage, handleEmailChnage, processLogin } = useAuth();
+    const { signInWithgoogle, setIsLoading, handlepasswordChnage, handleEmailChnage, processLogin, error, setError } = useAuth();
     const handleGoogleLogIn = () => {
         signInWithgoogle()
             .then((result) => {
@@ -29,6 +29,7 @@ const Login = () => {
             })
             .finally(() => setIsLoading(false))
             .catch((error) => {
+                setError("Email or password does no match");
             });
 
     }
@@ -60,6 +61,7 @@ const Login = () => {
                                                 onBlur={handlepasswordChnage}
                                                 className="form-control" id="inputPassword3" />
                                         </Col>
+                                        <p className="text-danger py-2">{error}</p>
                                     </Row>
                                     <div className="text-center py-3">
                                         <Button variant="info"

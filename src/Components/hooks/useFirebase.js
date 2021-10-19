@@ -11,21 +11,24 @@ const useFirebase = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [passError, setPassError] = useState('');
-
+    const [error, setError] = useState(' ');
     const [rePassword, setRePassword] = useState('');
     const [isLoading, setIsLoading] = useState(true);
 
     // name feild 
     const handleNameChange = e => {
+
         setName(e.target.value)
     }
     // email feild 
     const handleEmailChnage = e => {
+        setError(" ");
         setEmail(e.target.value)
 
     }
     // password feild 
     const handlepasswordChnage = e => {
+        setError(" ");
         setPassError(" ")
         setPassword(e.target.value);
 
@@ -51,6 +54,7 @@ const useFirebase = () => {
     }
     // email pass log in 
     const processLogin = (e) => {
+        setError(" ");
         setIsLoading(true)
 
         return signInWithEmailAndPassword(auth, email, password)
@@ -84,7 +88,7 @@ const useFirebase = () => {
         });
         return () => unsubscribed;
     }, [])
-    return { user, signInWithgoogle, setIsLoading, logOut, handleNameChange, handleEmailChnage, handlepasswordReChnage, handlepasswordChnage, registerNewUser, password, rePassword, setUserName, verifyEmail, setPassError, passError, processLogin, isLoading }
+    return { user, signInWithgoogle, setIsLoading, logOut, handleNameChange, handleEmailChnage, handlepasswordReChnage, handlepasswordChnage, registerNewUser, password, rePassword, setUserName, verifyEmail, setPassError, passError, processLogin, isLoading, error, setError }
 
 }
 export default useFirebase;
