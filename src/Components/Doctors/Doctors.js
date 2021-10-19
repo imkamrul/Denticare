@@ -19,7 +19,8 @@ const Doctors = () => {
         <div>
             <DoctorBanner></DoctorBanner>
             <Container className="pt-5">
-                <h3 className="py-3 fw-bolder">Our Awesome <span className="text-info"> Doctors </span></h3>
+                <h3 className="py-3 fw-bolder">Our Awesome<span className="text-info"> Doctorse</span></h3>
+
                 <Row xs={1} md={4} className="g-4 pb-5">
                     {
                         doctors.length ? doctors.map(doctor => <DoctocDetails

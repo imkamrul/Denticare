@@ -4,11 +4,10 @@
 }
 .plan-logo{
     position: absolute;
-/* bottom: 220px; */
 
-    /* right: 5px; */
-    left: 170px;
-   bottom: -35px;
+    left: 160px;
+    top: 110px;
+
  
 
    
@@ -25,4 +24,20 @@ justify-content: center;
 align-items: center;
 
    
+}
+.plan-book-button{
+    background-color: #081839 !important;
+    border: #081839;
+}
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    .plan-logo{
+  
+        left: 130px;
+        top: 100px;
+ 
+     
+    
+       
+    }
 }

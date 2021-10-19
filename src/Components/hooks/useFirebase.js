@@ -14,25 +14,29 @@ const useFirebase = () => {
 
     const [rePassword, setRePassword] = useState('');
     const [isLoading, setIsLoading] = useState(true);
-    // console.log(name, email, password, rePassword)
 
+    // name feild 
     const handleNameChange = e => {
         setName(e.target.value)
     }
+    // email feild 
     const handleEmailChnage = e => {
         setEmail(e.target.value)
 
     }
+    // password feild 
     const handlepasswordChnage = e => {
         setPassError(" ")
         setPassword(e.target.value);
 
     }
+    // retype password feild 
     const handlepasswordReChnage = e => {
         setPassError(" ")
         setRePassword(e.target.value);
 
     }
+    //  new register handle 
     const registerNewUser = (e) => {
         e.preventDefault();
         return createUserWithEmailAndPassword(auth, email, password)
@@ -41,6 +45,7 @@ const useFirebase = () => {
     const setUserName = () => {
         return updateProfile(auth.currentUser, { displayName: name })
     }
+    // email verification 
     const verifyEmail = () => {
         return sendEmailVerification(auth.currentUser)
     }
@@ -57,7 +62,7 @@ const useFirebase = () => {
         return signInWithPopup(auth, googleProvider)
 
     }
-
+    //  user log out 
     const logOut = () => {
         const auth = getAuth();
         signOut(auth).then(() => {

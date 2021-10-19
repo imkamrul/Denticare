@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import google from '../../img/google.png'
@@ -10,7 +10,7 @@ const Register = () => {
 
     const history = useHistory();
     const { handleNameChange, handleEmailChnage, handlepasswordChnage, handlepasswordReChnage, passError, setPassError, registerNewUser, setUserName, verifyEmail, password, rePassword } = useAuth();
-    console.log(password, rePassword);
+
     const handleCreateAccount = (e) => {
 
 
@@ -42,7 +42,7 @@ const Register = () => {
 
         }
     }
-    console.log(passError)
+
 
     return (
         <div>

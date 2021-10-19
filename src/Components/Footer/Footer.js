@@ -33,7 +33,7 @@ const Footer = () => {
                         </div>
                         <hr className="mt-5" />
                         <h4 className="pt-3 text-center">Follow on socials</h4>
-                        <p className="text-center fs-2 ">
+                        <p className="text-center fs-2 social-icon">
                             <i className="fab fa-facebook px-2"></i>
                             <i className="fab fa-twitter px-2"></i>
                             <i className="fab fa-linkedin-in px-2"></i>
@@ -52,11 +52,6 @@ const Footer = () => {
 
             </Container>
             <hr />
-
-
-
-
-
             <Copywrites></Copywrites>
         </div>
     );

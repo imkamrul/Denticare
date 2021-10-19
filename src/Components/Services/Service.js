@@ -16,7 +16,7 @@ const Service = (props) => {
                 <Card.Img variant="top" src={serviceIMG} style={{ height: "240px " }} className="custom-service-style" />
                 <Card.Body>
                     <Card.Title className="fs-3">{title}</Card.Title>
-                    <p className="service-logo"> <i class={logo}></i></p>
+                    <p className="service-logo"> <i className={logo}></i></p>
                     <Card.Text>
 
                         {info.slice(0, 100)}

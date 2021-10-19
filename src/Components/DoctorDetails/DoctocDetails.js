@@ -3,7 +3,7 @@ import { Card, Col } from 'react-bootstrap';
 import './DoctorDetails.css'
 
 const DoctocDetails = (props) => {
-    console.log(props)
+
     const { doctorName, doctorImg, title, logo } = props.doctor
     return (
         <Col>
@@ -13,15 +13,15 @@ const DoctocDetails = (props) => {
                     <Card.Title className="fs-3 text-center">{doctorName}</Card.Title>
 
                     <Card.Text>
-                        <p className="fw-3 text-center"><span className="text-info">{title} (<i class={logo}></i>)</span> specialist</p>
+                        <p className="fw-3 text-center"><span className="text-info">{title} (<i className={logo}></i>)</span> specialist</p>
 
 
                     </Card.Text>
                     <p className="fs-4 mb-0 social-link text-center">
-                        <i class="fab fa-youtube mx-2"></i>
-                        <i class="fab fa-twitter mx-2"></i>
+                        <i className="fab fa-youtube mx-2"></i>
+                        <i className="fab fa-twitter mx-2"></i>
 
-                        <i class="fab fa-facebook-square mx-2"></i>
+                        <i className="fab fa-facebook-square mx-2"></i>
                     </p>
                 </Card.Body>
 

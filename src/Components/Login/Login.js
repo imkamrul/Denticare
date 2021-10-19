@@ -15,10 +15,10 @@ const Login = () => {
         signInWithgoogle()
             .then((result) => {
                 history.push(redirect_uri)
-                // console.log(result.user);
+
             }).finally(() => setIsLoading(false))
             .catch((error) => {
-                // setError("Log in failed");
+
             });
     }
     const handleLogin = (e) => {

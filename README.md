@@ -19,4 +19,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 2.You can see all the services of this website. 
 3.You can get information about doctors through this site. 
 4.You can make appointments in this site. 
-5.You can know the news. 
+5.You can know their plan. 

@@ -6,7 +6,7 @@ import './DetailService.css'
 const DetailService = () => {
     let { id } = useParams();
     const [services, setServices] = useState([]);
-    console.log(id)
+
 
     useEffect(() => {
         fetch('https://k17h02.github.io/api/fakedata.json')
@@ -14,7 +14,7 @@ const DetailService = () => {
             .then(data => setServices(data))
     }, [])
     const result = services.find(service => service.id === id)
-    console.log(result)
+
     return (
         <div className="bg-light">
 
@@ -42,8 +42,8 @@ const DetailService = () => {
                                 <Card.Title className="fs-4 mb-0">{result?.doctorName} <span className="fs-5 text-muted fw-light">(Specialist at <span className="text-info">{result?.title}</span>)</span></Card.Title>
 
                             </Card.Body>
-                            <div className="d-md-flex justify-content-between px-2 pb-3"> <p className="mb-0 fs-5"><i class="fas fa-envelope-square px-2"></i>info@rmail.com</p>
-                                <p className="mb-0 fs-5"><i class="fas fa-phone px-2"></i>019503343</p></div>
+                            <div className="d-md-flex justify-content-between px-2 pb-3"> <p className="mb-0 fs-5"><i className="fas fa-envelope-square px-2"></i>info@rmail.com</p>
+                                <p className="mb-0 fs-5"><i className="fas fa-phone px-2"></i>019503343</p></div>
 
                         </Card>
                     </Col>
@@ -52,16 +52,16 @@ const DetailService = () => {
                         <p className="fw-light">The practice of continuing comprehensive care is the concurrent prevention and management of multiple physical and emotional health problems of a patient over a period of time in relationship to family, life events and environment.</p>
                         <Row>
                             <Col md={6}>
-                                <p className="fs-5"><i class="fas fa-caret-right text-info pe-2"></i>Route and medical care</p>
+                                <p className="fs-5"><i className="fas fa-caret-right text-info pe-2"></i>Route and medical care</p>
                             </Col>
                             <Col md={6}>
-                                <p className="fs-5"><i class="fas fa-caret-right text-info pe-2"></i>Excellence in Health care every</p>
+                                <p className="fs-5"><i className="fas fa-caret-right text-info pe-2"></i>Excellence in Health care every</p>
                             </Col>
                             <Col md={6}>
-                                <p className="fs-5"><i class="fas fa-caret-right text-info pe-2"></i>Routine and medical care</p>
+                                <p className="fs-5"><i className="fas fa-caret-right text-info pe-2"></i>Routine and medical care</p>
                             </Col>
                             <Col md={6}>
-                                <p className="fs-5"><i class="fas fa-caret-right text-info pe-2"></i>Building a healthy environment.</p>
+                                <p className="fs-5"><i className="fas fa-caret-right text-info pe-2"></i>Building a healthy environment.</p>
                             </Col>
                             <Col md={12} className="d-flex justify-content-center py-3">
                                 <Button variant="info" className="text-white fs-5">See Details</Button>

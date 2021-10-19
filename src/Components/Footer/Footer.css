@@ -1,15 +1,19 @@
 .footer-custom-color{
     background-color: #081839;
 }
-.footer-link-customize a{
+
+.social-icon i:hover{
+    color: #31D2F2;
+    transform: scale(1.1);
+
+}
+/* .footer-link-customize a{
     text-decoration: none;
     margin: 0 10px;
     color: white;
 
     
 
-}
-.footer-link-customize a:hover{
-    border-bottom: 2px solid red;
-    color: blue;
-}
+} */
+
+

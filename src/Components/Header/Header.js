@@ -14,7 +14,7 @@ const Header = () => {
                 <Row className="">
                     <Col md={6}>
                         <Row >
-                            <Col >
+                            <Col xs md={4}>
                                 <p className="mb-0">
                                     <i className="fas fa-phone-volume fs-5"></i>
                                     <span className="fs-5 ps-2 fw-lighter">
@@ -22,7 +22,7 @@ const Header = () => {
                                     </span>
                                 </p>
                             </Col>
-                            <Col>
+                            <Col xs md={4}>
                                 <p className="mb-0">
                                     <i className="fas fa-map-marker-alt fs-5"></i>
                                     <span className="fs-5 ps-2 fw-lighter">
@@ -33,9 +33,9 @@ const Header = () => {
 
                         </Row>
                     </Col>
-                    <Col md={6}>
-                        <p className="text-end fs-5 mb-0">
-                            <i className="fab fa-facebook px-2"></i>
+                    <Col xs={12} md={6}>
+                        <p className="text-md-end fs-5 mb-0  text-center">
+                            <i className="fab fa-facebook pe-2"></i>
                             <i className="fab fa-twitter px-2"></i>
                             <i className="fab fa-linkedin-in px-2"></i>
                             <i className="fab fa-youtube px-2"></i>
